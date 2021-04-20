@@ -10,7 +10,7 @@ let circleX = 400;
 let circleY = 200;
 let randomAmount = 10;
 function draw(){
-	background(200);
+	background(200,100);
 
 	fill(0);
 	circleX = circleX+random(-randomAmount,randomAmount);
