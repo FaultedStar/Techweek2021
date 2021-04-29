@@ -3,7 +3,10 @@
 
 let circleX = 400;
 let circleY = 200;
+let circleSide = 100;
+
 let randomAmount = 10;
+
 
 function setup(){
 	// create the drawing canvas, save the canvas element
@@ -12,12 +15,12 @@ function setup(){
 }
 
 function draw(){
-	let circleSide = 100;
+
 	background(200,100);
 	fill(0);
 
 	circleX = circleX+random(-randomAmount,randomAmount);
 	circleY = circleY+random(-randomAmount,randomAmount);
-	
+
 	ellipse(circleX,circleY,circleSide);
 }
