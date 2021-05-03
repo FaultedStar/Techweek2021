@@ -16,14 +16,15 @@ function setup(){
 
 function draw(){
 
-	background(200,100);
-	fill(0);
+	background(200,100); // wipes the stage clean
+	fill(0); // makes the circle black
 
-	circleX = circleX+5;
+	circleX = circleX+5; // this updates the circle position
 
-	ellipse(circleX,circleY,circleSide);
+	ellipse(circleX,circleY,circleSide); // draws the circle
 
-	if(circleX > (width+circleSide/2)){
-		circleX = 0 - circleSide/2
+	if(circleX > (width+circleSide/2)){ // asks if the circle is off screen to the right
+		circleX = 0 - circleSide/2 // moves the circles X position to off screen to the left
 	}
+
 }

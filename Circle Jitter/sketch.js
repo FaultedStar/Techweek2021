@@ -16,11 +16,11 @@ function setup(){
 
 function draw(){
 
-	background(200,100);
-	fill(0);
+	background(200,100); // wipes the stage clear, every frame loop of the draw
+	fill(0); // fill circle black
 
-	circleX = circleX+random(-randomAmount,randomAmount);
+	circleX = circleX+random(-randomAmount,randomAmount); // adds a random number between -10 and 10 to the location of the circle
 	circleY = circleY+random(-randomAmount,randomAmount);
 
-	ellipse(circleX,circleY,circleSide);
+	ellipse(circleX,circleY,circleSide); //draw circle
 }
