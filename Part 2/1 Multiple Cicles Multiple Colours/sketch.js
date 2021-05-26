@@ -26,7 +26,8 @@ function setup() {
   circleColor.push(color(20, 25, 31)); // off black
 
   // try out your own colour pallets https://color.adobe.com/create/color-wheel
-  
+  // you can use hex like this: color("#6B6EF2")
+
 }
 
 function draw() {
