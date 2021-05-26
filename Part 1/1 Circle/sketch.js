@@ -1,6 +1,7 @@
 // code created for the introduction to creative coding workshop (produced for techweek 2021)
 // Author Phoebe Zeller - phoebe.zeller@vuw.ac.nz
 
+let variable = 1 ; // this is an example of a variable. A variable is a number, but we give it a name. 
 function setup(){
 	// create the drawing canvas, save the canvas element
 	createCanvas(960, 500);

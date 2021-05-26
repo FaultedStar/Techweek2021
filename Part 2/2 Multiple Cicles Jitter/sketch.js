@@ -3,17 +3,20 @@
 let circlesX = []
 let circlesY = []
 let circlesSize = [] // [] // this symbol means we are making a space to store things
+
 let randomAmount = 5;
 
 function setup() {
   // create the drawing canvas, save the canvas element
   createCanvas(960, 500);
   background(200);
+
   for (let i = 0; i < 10; i++) {
     circlesX.push(random(200, 900)); // storing things in our [] space
     circlesY.push(random(50, 450));
     circlesSize.push(random(50, 250));
   }
+  
 }
 
 function draw() {
