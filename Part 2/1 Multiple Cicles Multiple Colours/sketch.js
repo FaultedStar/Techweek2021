@@ -2,7 +2,7 @@
 // Author Phoebe Zeller - phoebe.zeller@vuw.ac.nz
 
 let circlesX = [] // these are arrays! They store variables
-let circlesY = [] 
+let circlesY = [] // [] // this symbol means we are making a space to store things
 let circlesSize = []
 let circleColor = []
 
