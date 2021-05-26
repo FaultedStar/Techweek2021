@@ -24,6 +24,9 @@ function setup() {
   circleColor.push(color(64, 51, 105)); // purple
   circleColor.push(color(29, 38, 69)); // navy
   circleColor.push(color(20, 25, 31)); // off black
+
+  // try out your own colour pallets https://color.adobe.com/create/color-wheel
+  
 }
 
 function draw() {
