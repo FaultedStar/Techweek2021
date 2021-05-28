@@ -20,13 +20,8 @@ function setup(){
 }
 
 function draw(){
-	fill(0);  // sets the circle colour to black
-	let x = r * cos(t);
-	let y = r * sin(t);
-	push();
-	translate(cX,cY);
-	point(x,y);
-	pop();
-
-	t+=.05;
+	let x = r * cos(t); // sets the radius of our compass
+	let y = r * sin(t); // sets the radius of our compass
+	point(x+cX,y+cY);// draws a point on our circle
+	t+=.05; // moves our compass
 }
