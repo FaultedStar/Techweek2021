@@ -5,13 +5,13 @@ let circlesX = [] // these are arrays! They store variables
 let circlesY = [] // [] // this symbol means we are making a space to store things
 let circlesSize = []
 let circleColor = []
-
+let numberOfCircles = 7;
 function setup() {
   // create the drawing canvas, save the canvas element
   createCanvas(960, 500);
   background(200);
 
-  for (let i = 0; i < 7; i++) {
+  for (let i = 0; i < numberOfCircles; i++) {
     circlesX.push(random(200, 900)); // add random numbers to the x location array
     circlesY.push(random(50, 450)); // add random numbers to the y location array
     circlesSize.push(random(50, 250)); // add random sizes to the size array
@@ -34,7 +34,7 @@ function draw() {
 
   stroke(225);
 
-  for (let i = 0; i < 7; i++) { // don't worry about this too much. It is a peice of logic that we use to make a bit of code loop, in this case 7 times
+  for (let i = 0; i < numberOfCircles; i++) { // don't worry about this too much. It is a peice of logic that we use to make a bit of code loop, in this case 7 times
     fill(circleColor[i]);
     ellipse(circlesX[i], circlesY[i], circlesSize[i]);
   }
